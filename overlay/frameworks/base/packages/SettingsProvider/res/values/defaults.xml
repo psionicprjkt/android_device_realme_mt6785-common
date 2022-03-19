@@ -1,0 +1,6 @@
+<resources>
+
+    <!-- Disable bluetooth by default -->
+    <bool name="def_bluetooth_on">false</bool>
+
+</resources>
