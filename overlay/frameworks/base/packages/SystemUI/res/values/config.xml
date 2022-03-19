@@ -19,4 +19,9 @@
     <!-- FPSInfoService FPS node file path -->
     <string name="config_fpsInfoSysNode" translatable="false">/sys/module/primary_display/parameters/display_framerate_main</string>
 
+    <!-- The default tiles to display in QuickSettings -->
+    <string name="quick_settings_tiles_default" translatable="false">
+        wifi,bt,dnd,flashlight,rotation,battery,cell,airplane,location,sync,fpsinfo,weather,hotspot,screenrecord,dark,caffeine,gaming,navbar,heads_up,dataswitch,reboot,sound,sleep_mode,sensorprivacy
+    </string>
+
 </resources>
