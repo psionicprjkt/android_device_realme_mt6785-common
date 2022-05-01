@@ -32,6 +32,8 @@ $(call inherit-product-if-exists, packages/apps/RealmeDirac/dirac.mk)
 $(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
 
 # vendor/extra
+WITH_PMC := true
+WITH_GCAMGO := true
 $(call inherit-product, vendor/extra/config.mk)
 
 # Shipping API
