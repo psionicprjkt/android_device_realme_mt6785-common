@@ -1,2 +1,5 @@
 # d2tw
 get_prop(vendor_init, dt2w_prop)
+
+# Allow init to write /proc/fastchg_fw_update
+allow vendor_init proc_fastchg_fw:file rw_file_perms;
