@@ -18,3 +18,6 @@ allow system_app sysfs_zram:file r_file_perms;
 
 # Battery Health
 r_dir_file(system_app, sysfs_battery_supply)
+
+# dt2w
+set_prop(system_app, dt2w_prop)

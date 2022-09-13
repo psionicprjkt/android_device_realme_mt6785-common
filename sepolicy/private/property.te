@@ -1,2 +1,3 @@
 system_internal_prop(cabc_prop)
 system_internal_prop(perf_prop)
+system_public_prop(dt2w_prop)
