@@ -125,6 +125,7 @@ PRODUCT_COPY_FILES += \
 
 # Properties
 -include $(COMMON_PATH)/properties.mk
+include $(COMMON_PATH)/vendor_prop.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Recovery
